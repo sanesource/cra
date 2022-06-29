@@ -4,16 +4,10 @@ Minimal Create-React-App
 
 ## Installation
 
-Download the script
+Download and install the script
 
 ```
-curl -s https://raw.githubusercontent.com/sanesource/cra/main/cra.sh > /usr/local/bin/cra.sh
-```
-
-Create alias for that, insert following line in your shell configuration file i.e. ~/.bash_profile, ~/.zshrc
-
-```
-alias cra='sh /usr/local/bin/cra.sh'
+curl -s https://raw.githubusercontent.com/sanesource/cra/main/cra > /usr/local/bin/cra && chmod 777 /usr/local/bin/cra 
 ```
 
 ## Usage
